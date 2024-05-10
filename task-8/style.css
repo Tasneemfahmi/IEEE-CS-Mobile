@@ -1,0 +1,72 @@
+body {
+  color: hsl(0, 0%, 8%);
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 94%);
+}
+.Num {
+  color: hsl(259, 100%, 65%);
+}
+.ageResult {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 78px;
+  margin-top: -24px;
+  margin-bottom: -24px;
+  grid-column: 4;
+}
+#result {
+  padding-bottom: 48px;
+  padding-top: 48px;
+  width: 525px;
+}
+#ageCalculator {
+  width: 720px;
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px 20px 90px 20px;
+  height: 525px;
+  padding-right: 30px;
+}
+#inputsID {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: px;
+}
+.inputs {
+  width: 180px;
+  padding-top: 30px;
+}
+input {
+  width: 132px;
+  height: 60px;
+  padding-left: 24px;
+  font-size: 27px;
+  font-family: "Poppins";
+  border-radius: 8px;
+  border-color: hsl(0, 0%, 86%);
+  box-shadow: none;
+  border-style: solid;
+}
+input::placeholder {
+  font-weight: 800;
+  color: hsl(0, 1%, 44%);
+}
+#line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid hsl(0, 0%, 94%);
+  width: 555px;
+  justify-self: flex-end;
+  align-self: flex-end;
+  padding-top: 33px;
+}
